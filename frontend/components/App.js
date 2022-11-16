@@ -82,7 +82,7 @@ export default class App extends React.Component {
             toggleCompleted={this.toggleCompleted}
           />
           <Form 
-            onTodoFormSubmit={this.onTodoFormSubmit} 
+            onFormSubmit={this.onFormSubmit} 
             todoNameInput={this.state.todoNameInput} 
             onInputChange={this.onInputChange} 
             toggleDisplayCompleted={this.toggleDisplayCompleted}

@@ -72,6 +72,10 @@ nav a.active {
   margin: 0 0 1rem 0;
 }
 
+#todo:hover {
+  cursor: pointer;
+}
+
 ul, form {
   margin: 1rem 0 1rem 0;
 }
